@@ -66,7 +66,7 @@ public class DamagePopup : MonoBehaviour
         return damagePopup; 
     }
 
-    public void Setup(float damageAmount, params Color32[] colors)
+    private void Setup(float damageAmount, params Color32[] colors)
     {
         _textMeshPro.SetText(damageAmount.ToString());
         if (colors.Length > 0)
