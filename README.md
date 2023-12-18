@@ -10,6 +10,8 @@ Damage Popups for Unity 3D.
 1. Ensure a static reference to the DamagePopup prefab is set within DamagePopup.cs
 
 ## Methods
+
+### Create
 *Creates and returns a DamagePopup.*
 ```cs
 public static DamagePopup Create(Vector3 position, float damageAmount, params Color32[] colors)
